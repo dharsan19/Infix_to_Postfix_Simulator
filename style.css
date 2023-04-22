@@ -1,0 +1,137 @@
+.textbox { 
+    margin: 5px;
+    background: #E9E9EE; 
+    height:35px; 
+    width: 450px; 
+    border-radius: 2em; 
+    border: none; 
+    color: #828282; 
+    padding-left: 1.5em; 
+    outline: none; 
+    font-size: 20px;
+    box-shadow: 0 4px 6px -5px hsl(0, 0%, 40%), inset 0px 4px 6px -5px hsl(0, 0%, 2%) 
+} 
+
+canvas{
+  margin: 5px; 
+  float: left;
+  width: 200px;
+}
+
+.command_group{
+    margin: 10px;
+    float: left;
+    display: block;
+    width: 28.5%;
+    padding-top:50px;
+}
+
+p{
+    font-family: courier;
+
+  margin:5px;
+/*   font-size: 20px; */
+
+  color: black;
+  font-size: 100%;
+}
+
+h1, h2, h3{
+  font-family: Courier;
+}
+
+.css_button{
+     margin: 5px;
+     font-size: 17px;
+     padding: 9px 18px;
+     border-radius: 11px;
+     border: solid 1px #3866a3;
+     cursor: pointer;
+     display: inline-block;
+     font-family: Arial;
+     color: #FFFFFF;
+     text-shadow: 1px 1px 0px #5e5e5e;
+     box-shadow: inset 1px 1px 0px 0px #bee2f9;
+     background: -webkit-linear-gradient(90deg, #468ccf 5%, #63B8EE 100%);
+     background: -moz-linear-gradient(90deg, #468ccf 5%, #63B8EE 100%);
+     background: -ms-linear-gradient(90deg, #468ccf 5%, #63B8EE 100%);
+     background: -o-linear-gradient(90deg, #468ccf 5%, #63B8EE 100%);
+ }
+ .css_button:hover{
+     background: -webkit-linear-gradient(90deg, #63B8EE 5%, #468ccf 100%);
+     background: -moz-linear-gradient(90deg, #63B8EE 5%, #468ccf 100%);
+     background: -ms-linear-gradient(90deg, #63B8EE 5%, #468ccf 100%);
+     background: -o-linear-gradient(90deg, #63B8EE 5%, #468ccf 100%);
+ }
+ .css_button:active{
+     position: relative;
+     top: 1px;
+     box-shadow: rgba(255,255,255,0.2) 0 16px 0,inset rgba(0,0,0,0.3) 0px 4px 16px;
+ }
+
+
+
+.btn-round {
+    border-radius: 50%;
+}
+
+.btn-lg {
+    width: 60px;
+    height: 60px;
+    padding: 10px 19px;
+    font-size: 25px;
+    line-height: 1.73;
+}
+     
+.btn-round.btn-m {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    padding: 0px 4px;
+}
+   
+    
+.btn-round.btn-sm {
+    width: 34px;
+    height: 34px;
+}
+
+.btn-round.btn-xs {
+    width: 24px;
+    height: 24px;
+}
+    
+.btn:focus,
+.btn.focus,{
+    outline: none;
+}
+
+.btn{
+    margin: 4px;
+}
+    
+    button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    border: 0;
+    background: transparent;
+}
+    
+    
+    .icon-white{
+        color: #ffffff;
+    }
+                    
+    .icon-black{
+        color: #000000;
+    }  
+    
+    .icon-blue{
+        color: blue;
+    }  
+                 
+    
+    /* Rules for sizing the icon. */
+.material-icons.md-20 { font-size: 20px; }

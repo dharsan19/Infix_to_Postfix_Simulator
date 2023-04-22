@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Infix to postfix</title>
+  <link rel='stylesheet' href='https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<h1>== Infix to postfix conversion (step by step) ==</h1>
+
+<h3>Directions</h3>
+<p>
+This app can create postfix notation of an expression.
+For example, expression a+(b*c) is abc*+ in postfix notation. You will see an animation step by step.
+</p>
+<p>
+You can change the infix notation and see the result.
+See also <a href="https://codepen.io/mehmetakifakkus/pen/dvygKZ" target="_blank">Expression Tree Creation</a> related to this.
+</p>
+ 
+
+<h3>Prefix notation</h3>
+<p>Here, give your own expression or just use it</p>
+<input class="textbox" type="text" id="expression" value="a+b*(c+d)">
+
+<button class="css_button" type="button" onclick="window.evaluate()">Evaluate</button>  
+<br>
+<p>Postfix form (output):</p>
+<input class="textbox" id="result_exp" value="" readonly>
+
+<h3 id = "myArray"><h3>
+	
+<canvas id="myCanvas" width="240px" height="350px"></canvas>
+<br>
+<div>
+  
+  <p id="desc"></p>
+</div>
+	
+  
+<div class="command_group">
+  
+<button type="button" onclick="backward()" class="btn btn-round btn-m" style="background-color: #0d47a1!important;"><span class="glyphicon glyphicon-step-backward icon-white"></span></button>
+<button type="button" onclick="iterate()" class="btn btn-round btn-lg" style="background-color: #0d47a1!important;"><span class="glyphicon glyphicon-play icon-white"></span></button> 
+  
+    <p id="info_iter"></p>  
+</div>
+  
+<!-- 	<script type="text/paperscript" src="https://codepen.io/mehmetakifakkus/pen/dvygKZ.js" canvas="myCanvas"></script>	 -->
+<!-- partial -->
+  <script src='//cdnjs.cloudflare.com/ajax/libs/paper.js/0.9.18/paper-full.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
